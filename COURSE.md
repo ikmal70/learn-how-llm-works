@@ -125,8 +125,12 @@ Those are ongoing learning after the foundation here.
 
 - [x] 01 Tokenization (all 5 functions done, tested in `01-tokenization.ipynb`; check questions still open)
 - [x] 02 Bigram model (ran `02-bigram.ipynb`: loss 5.89 -> 2.47, train 2.486 / val 2.492; check questions still open)
-- [ ] 03 Self-attention (built and verified: loss 2.05 vs bigram 2.47; next: run `03-attention.ipynb`, answer check questions)
-- [ ] 04 Transformer and GPT (built and verified: GPT loss 1.42 train / 1.65 val; next: run `04-transformer.ipynb`, read the paper)
-- [ ] 05 Training (built, trained and verified: 30M params, 40 min, val loss 2.13; next: run `05-training.ipynb`)
-- [ ] 06 Inference (built and verified: sampling plus KV cache, same output, 2-4x faster on CPU; next: run `06-inference.ipynb`)
-- [ ] Extensions
+- [x] 03 Self-attention (ran `03-attention.ipynb`: loss 2.055 train / 2.165 val vs bigram 2.47; check questions still open)
+- [x] 04 Transformer and GPT (ran `04-transformer.ipynb`: 1.43 train / 1.65 val, 865k params; check questions still open, paper not read yet)
+- [x] 05 Training (ran `05-training.ipynb`: 30M params, 40 min, final val loss 2.126, perplexity 8.4; check questions still open)
+- [x] 06 Inference (ran `06-inference.ipynb`: cache gives identical output, 1.2x on GPU, 2.5x to 5.7x on CPU; check questions still open)
+- [ ] Read "Attention Is All You Need" (after step 04)
+- [ ] Check questions for steps 01 to 06 (none answered yet)
+- [ ] Extensions (RoPE, LoRA, SFT/RLHF concepts, quantization)
+
+Ticked means the code is built and you ran its notebook. Understanding is confirmed by the check questions, tracked separately above.
