@@ -100,7 +100,7 @@ Reading task: compare Figure 1 (the full architecture) and Figure 2 (attention) 
 
 - **RoPE:** the positional method modern models use.
 - **LoRA fine-tuning:** adapt a pretrained model cheaply.
-- **Post-training concepts:** SFT, RLHF, DPO.
+- **Post-training:** SFT is built (step 07). RLHF and DPO are still to come.
 - **Efficiency:** quantization, Flash Attention.
 - **Architecture variants:** grouped-query attention, Mixture of Experts.
 - **GGUF export:** convert for llama.cpp or Ollama (needs a compatible architecture).
@@ -129,8 +129,9 @@ Those are ongoing learning after the foundation here.
 - [x] 04 Transformer and GPT (ran `04-transformer.ipynb`: 1.43 train / 1.65 val, 865k params; check questions still open, paper not read yet)
 - [x] 05 Training (ran `05-training.ipynb`: 30M params, 40 min, final val loss 2.126, perplexity 8.4; check questions still open)
 - [x] 06 Inference (ran `06-inference.ipynb`: cache gives identical output, 1.2x on GPU, 2.5x to 5.7x on CPU; check questions still open)
+- [x] 07 SFT (built and verified, not yet run by the learner: val response loss 2.46 -> 2.12, requested words used 15% -> 39%; check questions still open)
 - [ ] Read "Attention Is All You Need" (after step 04)
 - [ ] Check questions for steps 01 to 06 (none answered yet)
-- [ ] Extensions (RoPE, LoRA, SFT/RLHF concepts, quantization)
+- [ ] Extensions (LoRA, DPO/RLHF concepts, RoPE, quantization)
 
 Ticked means the code is built and you ran its notebook. Understanding is confirmed by the check questions, tracked separately above.

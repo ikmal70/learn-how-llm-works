@@ -14,3 +14,5 @@ __pycache__/
 02-bigram/data/
 05-training/data/
 05-training/out/
+07-sft/data/
+07-sft/out/
