@@ -1,0 +1,16 @@
+# assistant instructions (local only)
+CLAUDE.md
+
+# python / uv environment
+.venv/
+__pycache__/
+*.pyc
+
+# notebooks and macOS
+.ipynb_checkpoints/
+.DS_Store
+
+# datasets and training outputs: large and reproducible (see README for how to recreate)
+02-bigram/data/
+05-training/data/
+05-training/out/
